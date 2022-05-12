@@ -1,0 +1,58 @@
+doctype html
+html
+  head
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+        ul
+            #logo 
+                img(src="/static/img/logo.png")
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/") Classes info]
+            li #[a(href="/") Contact Us]
+
+    section#introSection
+           div Welcome to MJ's Dance Academy
+           div.small Eat Sleep Dance Repeat
+    section#missionSection 
+            h2 This is Our Mission
+            .card
+                  h3 Dance Perfection
+                   .card-box
+                    .card-img
+                      img(src="/static/img/1.png")
+                    .card-content
+                     p This is the best dance academy of the universe
+
+            .card
+                  h3 Dance the way you like
+                    .card-box
+                      .card-img
+                        img(src="/static/img/2.png")
+                      .card-content
+                         p This is the best dance academy of the universe
+
+            .card
+                  h3 Expert Teaching
+                    .card-box
+                      .card-img
+                        img(src="/static/img/3.png")
+                      .card-content
+                        p This is the best dance academy of the universe
+
+    section#sponserSection
+          h2 Our Sponsors
+          img(src= "/static/img/logo1.png" alt= "Sponsor Image" class= "spImage")
+          img(src= "/static/img/logo2.png" alt= "Sponsor Image" class= "spImage")
+          img(src= "/static/img/logo3.png" alt= "Sponsor Image" class= "spImage")
+          img(src= "/static/img/logo4.png" alt= "Sponsor Image" class= "spImage")
+
+    footer#footer
+        | Copyright © 2022 MJ's Academy.com | All Rights Reserved
+
+    script
+      include ../static/index.js
+

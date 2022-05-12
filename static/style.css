@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    font-size: 28px;
+    margin-right: 40px;
+}
+#logo img{
+    height: 42px;
+    filter: invert(1);
+}
+#navbar{
+    background-color: #d43b3b;
+    padding: 11px 17px;
+    font-family: 'Macondo', cursive;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 16px 27px;
+}
+#navbar li a:hover{  
+    color: rgb(0, 0, 0);
+}
+#introSection{
+    padding-bottom: 23px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Macondo', cursive;
+    font-size: 65px;
+    align-items: center;
+    background: center/cover no-repeat url("/static/bg.jpg") ;
+    height: 425px;
+    background-color: red;
+}
+#introSection div.small{
+    padding: 2px;
+    font-size: 25px;
+    padding: 5px;
+}
+#missionSection {
+    height: 326px; 
+    margin: auto;
+    width: 67%;
+    
+}
+#missionSection h2{
+    font-family: 'Macondo', cursive;
+    text-align: center;
+    padding-top: 13px;
+}
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin: 23px 14px;
+    height: 209px;
+}
+.card h3{
+    text-align: center;
+    margin: 0 12px;
+    margin-top: 24px;
+    font-family: 'Macondo', cursive;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img{
+    height: 131px;
+    padding: 0 14px;
+    margin: 5px 9px;
+}
+.card-img img{
+    height: inherit; 
+}
+#sponserSection{
+    height: 150px;
+    background-color: #fbd6d6c7;
+}
+#sponserSection h2{
+    font-family: 'Macondo', cursive;
+    text-align: center;
+    padding-top: 23px;
+}
+.spImage{
+    height: 80px;
+    margin: 0px 117px;
+}
+
+#footer{
+    font-family: 'Macondo', cursive;
+    height: 25px;
+    background-color: #000000;
+    text-align: center;
+    color: white;
+
+}

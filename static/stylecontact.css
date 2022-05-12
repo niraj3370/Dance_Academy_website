@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
+.container{
+justify-content: center;
+min-height: 78.8vh;
+margin: 25px;
+
+}
+.container h1{
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+h1{
+    text-align: center;
+    margin: 12px;
+}
+.myForm{
+    font-family: 'Oleo Script Swash Caps';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.myInput{
+    font-size: 16px;
+    width: 40%;
+    padding: 9px;
+    margin: 8px;
+    border: 2px solid brown;
+    border-radius: 9px;
+    outline: none;
+}
+.btn{
+    padding: 8px 22px;
+    font-size: 13px;
+    border: 2px solid red;
+    border-radius: 12px;
+    color: white;
+    background: #ef2323;
+    cursor: pointer;
+}
